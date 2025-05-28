@@ -598,11 +598,9 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.5;
 }
 
 .hero-cta {
@@ -647,6 +645,7 @@ h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
     font-size: 1.2rem;
 }
 
+/* Scroll indicator mobile - ajustado para ficar mais visível */
 .scroll-indicator {
     position: absolute;
     bottom: 30px;
@@ -1780,6 +1779,17 @@ section {
         font-size: 1rem;
         margin-bottom: 2rem;
         line-height: 1.5;
+    }
+    
+    /* Scroll indicator mobile - ajustado para ficar mais visível */
+    .scroll-indicator {
+        bottom: 80px !important;
+        font-size: 0.9rem;
+    }
+    
+    .scroll-line {
+        height: 25px;
+        margin-bottom: 8px;
     }
     
     /* Navegação Mobile */
